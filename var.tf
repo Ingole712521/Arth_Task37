@@ -3,7 +3,7 @@ variable "aws_ami" {
 }
 
 variable "aws_count" {
-  default = 1  
+  default = 2  
 }
 
 variable "aws_az" {
@@ -39,11 +39,11 @@ variable "internal" {
 }
 
 variable "health_check_interval" {
-  default=30
+  default=10
 }
 
 variable "health_check_timeout" {
-  default=3
+  default=2
 }
 
 variable "associate_public_ip" {
@@ -61,6 +61,4 @@ variable "instance_type" {
 }
 
 
-variable "key_name" {
-  default=""
-}
+
