@@ -3,7 +3,7 @@ variable "aws_ami" {
 }
 
 variable "aws_count" {
-  default = 2  
+  default = 1  
 }
 
 variable "aws_az" {
