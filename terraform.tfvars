@@ -1,4 +1,4 @@
-aws_count=2
+aws_count=1
 aws_az="ap-south-1"
 instance_port={"HTTP": 80}
 lb_port={"HTTP": 80}
